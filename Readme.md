@@ -47,14 +47,14 @@ You can test the GraphQL API using Postman or any other GraphQL client by making
 #### Add a Book
 ```json
 {
-  "query": "mutation { addBook(title: "El llamado del chuthulu", authorId: "3") { id title author { id name } } }"
+  "query": "mutation { addBook(title: \"El llamado del chuthulu\", authorId: \"3\") { id title author { id name } } }"
 }
 ```
 
 #### Add an Author
 ```json
 {
-  "query": "mutation { addAuthor(name: "HP Lovecraft") { id name } }"
+  "query": "mutation { addAuthor(name: \"HP lovecraft\") { id name } }"
 }
 ```
 
